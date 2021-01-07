@@ -1,0 +1,91 @@
+/* Navigation bar */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 10px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+/* Home section*/
+#home{
+    height: 370px;
+    padding: 3px 28px;
+}
+#home::before{
+    height: 450px;
+}
+#home p{
+    font-size: 12px;
+}
+
+
+
+
+
+/* Highlight section*/
+#highlights{
+    flex-direction: column;
+}
+#highlights .box1{
+    padding:14px;
+    margin:2px 0px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+/*Availability section*/
+#contact-box form{
+    width: 80%;
+}
+
+
+
+
+
+
+/* partners section*/
+#partners{
+    flex-wrap: wrap;
+}
+
+#partners img{
+    width: 66px;
+    padding: 5px;
+    height:auto;
+}
+
+
+
+
+
+
+
+
+/* Footer section*/
+
+
+
+/*utility classes*/
+
+.first-head{
+    font-size: 18px;
+}
+
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
